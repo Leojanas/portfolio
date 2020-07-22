@@ -1,3 +1,3 @@
-# profile
+# portfolio
 
-This project was made as an intial front end website as part of the Bloc curriculum.  
+This project is the beginning of my professional portfolio.  It was all written by me, with some assistance from the Bloc web development bootcamp curriculum. 
