@@ -3,7 +3,10 @@
 .center{
   text-align: center;
 }
-/*This section styles the various headings h1-h5. */
+/*This section styles the various headings.*/
+p{
+  padding: 10px;
+}
 h1{
   font-size: 72px;
   font-family: cursive;
@@ -33,14 +36,40 @@ header{
   background-color: tan;
   margin-bottom: 20px;
 }
+header nav{
+  justify-content: center;
+  padding-bottom: 10px;
+}
+nav a{
+  margin: 5px 10px;
+}
+/*This section styles the footer*/
+footer{
+  padding: 30px;
+  text-align: center;
+}
 /*This establishes a "profile" class that has formatting for the profile picture used in the HTML. */
 .profile{
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   border-radius: 50px;
+}
+/*This styles the "image" class */
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 80%;
 }
 /*This establishes a "rounded" class that rounds the corners of anything it is applied to. */
 .rounded{
   border-radius: 20px;
+}
+/*This styles the padded class */
+.padded{
+  padding: 20px;
 }
 /*This creates a "light-blue" class that gives a light blue background to anything it is applied to. */
 .light-blue{
@@ -57,13 +86,12 @@ header{
 /*This creates a "border" class that gives a solid black border to anything it is applied to. */
 .border{
   border: #000000 2px solid;
-  padding-left: 20px;
 }
 /*This adds styling the hr tag in the HTML. It is used between each section. */  
 hr{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dotted tan;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px dashed tan;
 }
 /*This creates a "large" class that sets the font size of anythign it is applied to. */
 .large{
@@ -89,13 +117,17 @@ a:active  {color: orange}
   padding: 10px;
   margin: 20px;
 }
+.group-two{
+  display: flex;
+  flex-direction: column;
+}
 .item{
   flex:1;
   margin: 10px;
 }
 /*This media query changes the display for large screens */
 
-@media all and (min-width: 600px){
+@media all and (min-width: 800px){
   .group{
     flex-direction: row;
     justify-content: space-evenly;
@@ -105,4 +137,22 @@ a:active  {color: orange}
     width: 80%;
     padding: 20px;
   }
+  .image{
+    width: 250px;
+  }
+}
+/*This section formats the form */
+form label{
+display: block;
+}
+form textarea{
+  height: 60px;
+  width: 80%;
+}
+form input[type="text"]#phone-number{
+  width: 90px;
+}
+/* This formats the ordered list */
+ol li{
+margin: 10px 0;
 }
