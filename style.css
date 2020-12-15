@@ -94,7 +94,7 @@ hr{
   margin-bottom: 50px;
   border: 3px dashed tan;
 }
-/*This creates a "large" class that sets the font size of anythign it is applied to. */
+/*This creates a "large" class that sets the font size of anything it is applied to. */
 .large{
   font-size: 24px;
 }
@@ -125,6 +125,7 @@ a:active  {color: orange}
 .item{
   flex:1;
   margin: 10px;
+  height: 200px;
 }
 /*This media query changes the display for large screens */
 
