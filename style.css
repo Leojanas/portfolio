@@ -58,6 +58,7 @@ footer{
 /*This styles the "image" class */
 .image{
   display: block;
+  size: 120px 100px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
