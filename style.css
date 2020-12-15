@@ -48,23 +48,24 @@ footer{
   padding: 30px;
   text-align: center;
 }
-/*This establishes a "profile" class that has formatting for the profile picture used in the HTML. */
 .profile{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   border-radius: 50px;
 }
-/*This styles the "image" class */
 .image{
   display: block;
-  size: 120px 100px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   width: 80%;
 }
-/*This establishes a "rounded" class that rounds the corners of anything it is applied to. */
+.image-container{
+  height: 120px;
+  width: 150 px;
+  overflow: hidden;
+}
 .rounded{
   border-radius: 20px;
 }
@@ -125,7 +126,7 @@ a:active  {color: orange}
 .item{
   flex:1;
   margin: 10px;
-  height: 200px;
+  height: auto;
 }
 /*This media query changes the display for large screens */
 
