@@ -64,7 +64,7 @@ a:active  {color: orange}
   width: 80%;
 }
 .image-container{
-  height: 120px;
+  height: 150px;
   width: 150 px;
   overflow: hidden;
 }
@@ -110,18 +110,10 @@ hr{
   flex-direction: column;
 }
 .item{
-  flex:1;
+  flex: 1;
   margin: 10px;
-  height: auto;
 }
-/*This media query changes the display for large screens */
-
 @media all and (min-width: 800px){
-  .group{
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-  }
   .profile{
     width: 80%;
     padding: 20px;
@@ -130,7 +122,13 @@ hr{
     width: 250px;
   }
 }
-/*This section formats the form */
+@media all and (min-width: 1000px){
+  .group{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+}
 form label{
 display: block;
 }
