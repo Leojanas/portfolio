@@ -1,9 +1,4 @@
 /*This code provides the CSS formatting for the project  */
-/*This establishes a "center" class that centers the text of anything with that class.*/
-.center{
-  text-align: center;
-}
-/*This section styles the various headings.*/
 p{
   padding: 10px;
 }
@@ -31,7 +26,6 @@ h5{
   margin:0;
   padding:0;
 }
-/*This styles the header tag in the HTML. */
 header{
   background-color: tan;
   margin-bottom: 20px;
@@ -43,9 +37,17 @@ header nav{
 nav a{
   margin: 5px 10px;
 }
-/*This section styles the footer*/
 footer{
   padding: 30px;
+  text-align: center;
+}
+a{
+  color: #5555ff
+}
+a:visited {color: darkblue}
+a:hover   {color: green}
+a:active  {color: orange}
+.center{
   text-align: center;
 }
 .profile{
@@ -69,50 +71,34 @@ footer{
 .rounded{
   border-radius: 20px;
 }
-/*This styles the padded class */
 .padded{
   padding: 20px;
 }
-/*This creates a "light-blue" class that gives a light blue background to anything it is applied to. */
 .light-blue{
   background-color: lightskyblue;
 }
-/*This creates a "sea-green" class that gives a sea green background to anything it is applied to. */
 .sea-green{
   background-color: lightseagreen;
 }
-/*This creates a "green" class that gives a green background to anything it is applied to. */
 .green{
   background-color: lightgreen;
 }
-/*This creates a "border" class that gives a solid black border to anything it is applied to. */
 .border{
   border: #000000 2px solid;
 }
-/*This adds styling the hr tag in the HTML. It is used between each section. */  
 hr{
   margin-top: 50px;
   margin-bottom: 50px;
   border: 3px dashed tan;
 }
-/*This creates a "large" class that sets the font size of anything it is applied to. */
 .large{
   font-size: 24px;
 }
-/*This sets the colors for the various states of the links. */
-a{
-  color: #5555ff
-}
-a:visited {color: darkblue}
-a:hover   {color: green}
-a:active  {color: orange}
-/*This section styles the projects*/
 .project{
   background-color: tan;
   padding: 10px;
   margin: 0px;
 }
-/*This section defines the flexbox display */
 .group{
   display: flex;
   flex-direction: column;
@@ -134,7 +120,7 @@ a:active  {color: orange}
   .group{
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
   }
   .profile{
     width: 80%;
